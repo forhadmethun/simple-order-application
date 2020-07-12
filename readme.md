@@ -24,11 +24,10 @@ Deployment:
 ```
 cd dispatch
 ./gradlew bootJar
-cd build/libs/
-java -jar dispatch-0.0.1-SNAPSHOT.jar
+java -jar build/libs/dispatch-0.0.1-SNAPSHOT.jar
 ```
 - Run the React application
-  - the following commands will run the application  `http://localhost:3000/`
+  - open new terminal and run the the following commands which will run the application on  `http://localhost:3000/`
 ```
 cd ..
 cd dispatch-gui/
